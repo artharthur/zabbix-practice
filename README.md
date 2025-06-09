@@ -7,7 +7,9 @@
 Установите Zabbix Server с веб-интерфейсом.
 
 **Решение:**
-
+1. Скриншот авторизации в админке:
+   ![Login](screenshots/zabbix-login.png)
+   
 ```bash
 # Установка зависимостей
 sudo apt update
