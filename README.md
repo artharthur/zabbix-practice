@@ -8,7 +8,7 @@
 
 **Решение:**
 1. Скриншот авторизации в админке:
-   ![Login](screenshots/zabbix-login.png)
+   ![Login](screenshots/zabbix-dashboard.png)
    
 ```bash
 # Установка зависимостей
