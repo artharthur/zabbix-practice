@@ -39,3 +39,28 @@ sudo chown zabbix:zabbix /run/zabbix
 # Запуск служб
 sudo systemctl restart zabbix-server apache2
 sudo systemctl enable zabbix-server apache2
+```
+
+**Задание 2.**
+Установите Zabbix Agent на два хоста.
+
+**Решение:**
+
+### Скриншот: Configuration > Hosts
+![Hosts](screenshots/zabbix-hosts.png)
+
+### Скриншот: Лог агента MacBook
+![Agent Log](screenshots/zabbix-agent-log.png)
+
+### Скриншот: Monitoring > Latest data (MacBook)
+![Latest Data](screenshots/zabbix-latest-data.png)
+
+### Использованные команды
+
+```markdown
+#### На Zabbix-сервере:
+```bash
+sudo apt install zabbix-agent
+sudo systemctl enable zabbix-agent
+sudo systemctl start zabbix-agent
+```
