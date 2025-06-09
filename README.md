@@ -51,8 +51,8 @@ sudo systemctl enable zabbix-server apache2
 ### Скриншот: Configuration > Hosts
 ![Hosts](screenshots/zabbix-hosts.png)
 
-### Скриншот: Лог агента MacBook
-![Agent Log](screenshots/zabbix-agent-log.png)
+2. Скриншот лога агента MacBook, где видно успешное соединение:
+   ![Agent Log](screenshots/zabbix-agent-log.png)
 
 ### Скриншот: Monitoring > Latest data (MacBook)
 ![Latest Data](screenshots/zabbix-latest-data.png)
